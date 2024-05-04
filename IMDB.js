@@ -1,4 +1,4 @@
-const url = ' https://www.omdbapi.com/?apikey=169eb3c5';
+const url = ' http://www.omdbapi.com/?apikey=169eb3c5';
 let movieName = [];
 var favArray = [];
 let favmovies = localStorage.getItem('favourites');
