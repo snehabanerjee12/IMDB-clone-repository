@@ -1,5 +1,5 @@
 let favMovies = JSON.parse(localStorage.getItem('favourites'));
-const url = 'http://www.omdbapi.com/?apikey=169eb3c5 ';
+const url = 'https://www.omdbapi.com/?apikey=169eb3c5 ';
 
 function fetchMovies(){
     let body = document.querySelector('body');
