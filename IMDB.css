@@ -89,21 +89,6 @@ header{
     overflow: hidden;
 }
 
-.card .poster{
-    position: relative;
-}
-
-.card .poster::before{
-    content: '';
-    position: absolute;
-     bottom: -140px;
-    height: 100%;
-    width: 100%; 
-    background: linear-gradient(0deg,#4f5355 50%, transparent);
-    transition: 0.5s;
-    z-index: 2;
-}
-
 .card:hover .poster::before{
     bottom: 0px;
 }
