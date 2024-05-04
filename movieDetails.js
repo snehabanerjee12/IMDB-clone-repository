@@ -10,7 +10,7 @@
     
     let movieID = localStorage.getItem('movieDetails');
     
-    const url = ' http://www.omdbapi.com/?apikey=169eb3c5';
+    const url = ' https://www.omdbapi.com/?apikey=169eb3c5';
     let res = await fetch(url+`&i=${movieID}`, {method: 'GET'});
     let data = await res.json();
     console.log(data);
